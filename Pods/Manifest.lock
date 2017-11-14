@@ -1,0 +1,16 @@
+PODS:
+  - 163Live (1)
+
+DEPENDENCIES:
+  - 163Live (from `./163Live.podspec`)
+
+EXTERNAL SOURCES:
+  163Live:
+    :path: "./163Live.podspec"
+
+SPEC CHECKSUMS:
+  163Live: ec4f014d951658ac777c69c82c6171909f6e39ca
+
+PODFILE CHECKSUM: ed5e1812912721ce8cf26fbb600e9272f36785ed
+
+COCOAPODS: 1.1.1

@@ -1,0 +1,9 @@
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/163Live"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../163Live/163Live/LivePlayer/libs" $(inherited) "${PODS_ROOT}/../163Live/163Live/LiveStream/libs"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/163Live"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"GPUImage" -l"LSMediaCapture" -l"LSMediaCapture_X86_64" -l"NELivePlayer" -l"bz2" -l"c++" -l"crypto" -l"fdk-aac" -l"iconv" -l"openh264" -l"resolv" -l"rtmp" -l"sqlite3" -l"ssl" -l"stdc++" -l"yuv" -l"z" -l"z.1" -framework "AVFoundation" -framework "AudioToolbox" -framework "CFNetwork" -framework "CoreAudio" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreTelephony" -framework "CoreVideo" -framework "Foundation" -framework "OpenGLES" -framework "QuartzCore" -framework "SystemConfiguration" -framework "UIKit" -framework "VideoToolbox"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

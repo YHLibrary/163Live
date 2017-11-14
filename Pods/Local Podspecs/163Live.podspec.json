@@ -1,0 +1,51 @@
+{
+  "name": "163Live",
+  "version": "1",
+  "summary": "163Live.",
+  "description": "this is 163Live",
+  "homepage": "https://github.com/YHLibrary/163Live",
+  "license": {
+    "type": "MIT",
+    "file": "FILE_LICENSE"
+  },
+  "authors": {
+    "CasaTaloyum": "casatwy@msn.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/YHLibrary/163Live.git",
+    "tag": "1"
+  },
+  "source_files": "163Live/163Live/**/*.{h,m}",
+  "resources": "163Live/163Live/**/*.bundle",
+  "vendored_libraries": "163Live/163Live/**/*.a",
+  "frameworks": [
+    "VideoToolbox",
+    "AudioToolbox",
+    "SystemConfiguration",
+    "CoreTelephony",
+    "CFNetwork",
+    "Foundation",
+    "OpenGLES",
+    "QuartzCore",
+    "CoreAudio",
+    "CoreVideo",
+    "CoreGraphics",
+    "CoreMedia",
+    "AVFoundation",
+    "UIKit"
+  ],
+  "libraries": [
+    "z.1",
+    "sqlite3",
+    "c++",
+    "z",
+    "bz2",
+    "stdc++",
+    "iconv",
+    "resolv"
+  ],
+  "requires_arc": true
+}
